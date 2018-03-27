@@ -1,0 +1,6 @@
+dedisp-ajameson (0+git20170217-1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 27 Mar 2018 14:03:26 +0000
