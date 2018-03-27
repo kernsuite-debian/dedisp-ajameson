@@ -71,6 +71,7 @@ clean:
 	$(RM) -f $(SO_NAME) $(A_NAME) $(OBJ_DIR)/*.o $(LIB_DIR)/*.so $(LIB_DIR)/*.so.1
 
 install: all
+	mkdir -p $(INSTALL_DIR)/include/ $(INSTALL_DIR)/lib/
 	cp $(INTERFACE) $(INSTALL_DIR)/include/
 	cp $(CPP_INTERFACE) $(INSTALL_DIR)/include/
 	cp $(SO_NAME) $(INSTALL_DIR)/lib/
